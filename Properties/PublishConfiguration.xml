@@ -68,11 +68,13 @@ Anyway, fine tune to your liking but beware of reducing LUT contribution unless 
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Fix Skyve warning and compatibility update" />
+	<ChangeLog Value="Fix changelog only I hope" />
+	<ChangeLog>
 - Compatibility with game update 1.3.3f1.
 - Added CandyCommercial.xml settings preset to load, to make things easier
 - Optimized jpg screenshots to save disc space
 - Added GitHub link for Skyve, as I did not even know how to use Git, when released this LUT initially
+	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-CandyCommercialLUT" />
 	<ExternalLink Type="paypal" Url="https://www.paypal.com/donate/?hosted_button_id=8VN8P4VJDAKKA" />
