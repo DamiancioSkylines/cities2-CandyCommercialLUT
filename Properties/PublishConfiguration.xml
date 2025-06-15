@@ -10,7 +10,6 @@
 	<!--LongDescription Value="LUT PACK FOR LUMINA" /-->
 	<LongDescription>
 ## Candy Commercial LUT for Lumina
-
 Basically it's a look texture you load with Lumina mod, changes the look of the game.
 
 # Brief Usage:
@@ -31,12 +30,9 @@ After downloading, LUTs should show up, but if not, you need to relaunch your ga
 - Overall LUT does a great job of keeping pure white colors truly white, but Filmstock LUT pack is made better with smoother transitions (less "color banding"),  and better performance across different times of day, weather, and seasons for exactly middle grey value almost on point with vanilla game, cleaner skin tones, and still lets you achieve crisp whites with a little adjustment.
 
 # Extra notes
-# Tonemapping:
 - Non-filmic: Doesn't follow a film-like tone curve.
 - High-key commercial look: Creates a bright, clean aesthetic.
 - S-shaped curve: Increases contrast.
-		
-# Color:
 - Increased saturation: Makes colors more vibrant.
 - White point: Not affected.
 - Hue shifts: Warms up yellow tones while preserving skin tones for the most part.
@@ -61,8 +57,6 @@ Anyway, fine tune to your liking but beware of reducing LUT contribution unless 
 	<Screenshot Value="Properties/Screenshot07.jpg" />
 	<Screenshot Value="Properties/Screenshot08.jpg" />
 	<Screenshot Value="Properties/Screenshot09.jpg" />
-	<Screenshot Value="Properties/Screenshot10.jpg" />
-	<Screenshot Value="" />
 	<!--Tag can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
@@ -74,7 +68,7 @@ Anyway, fine tune to your liking but beware of reducing LUT contribution unless 
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="" />
+	<ChangeLog Value="Fix Skyve warning and compatibility update" />
 - Compatibility with game update 1.3.3f1.
 - Added CandyCommercial.xml settings preset to load, to make things easier
 - Optimized jpg screenshots to save disc space
