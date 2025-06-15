@@ -61,7 +61,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="LUTS\" />
+		<Folder Include="LuminaPresets\" />
+	  	<Folder Include="LUTS\" />
+		<EmbeddedResource Include="LUTS\Candy Commercial.cube">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="LuminaPresets\CandyCommercial.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="CandyCommercialLUT.lumina">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
 	</ItemGroup>
 
 </Project>

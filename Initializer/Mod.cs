@@ -3,12 +3,12 @@ using Game;
 using Game.Modding;
 using Game.SceneFlow;
 
-namespace LUTTemplate.Initializer
+namespace CandyCommercialLUT.Initializer
 {
     public class Mod : IMod
     {
 
-        public static ILog log = LogManager.GetLogger($"{nameof(LUTTemplate)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
+        public static ILog log = LogManager.GetLogger($"{nameof(CandyCommercialLUT)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
    
 
         public void OnLoad(UpdateSystem updateSystem)
@@ -20,6 +20,7 @@ namespace LUTTemplate.Initializer
 
 
             Bundle.ValidateLUTSDirectory();
+            Bundle.ValidatePresetsDirectory();
 
         }
 

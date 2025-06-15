@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalVariables xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PostExposure>0</PostExposure>
+  <PostExposureActive>true</PostExposureActive>
+  <Contrast>0</Contrast>
+  <ContrastActive>true</ContrastActive>
+  <HueShift>0</HueShift>
+  <HueShiftActive>true</HueShiftActive>
+  <Saturation>0</Saturation>
+  <SaturationActive>true</SaturationActive>
+  <Longitude>0</Longitude>
+  <Latitude>0</Latitude>
+  <Temperature>0</Temperature>
+  <TemperatureActive>true</TemperatureActive>
+  <Tint>0</Tint>
+  <TintActive>true</TintActive>
+  <Shadows>0.2405</Shadows>
+  <ShadowsActive>true</ShadowsActive>
+  <Midtones>0.2405</Midtones>
+  <MidtonesActive>true</MidtonesActive>
+  <Highlights>0.2405</Highlights>
+  <HighlightsActive>true</HighlightsActive>
+  <LUTContribution>1</LUTContribution>
+  <LUTContributionOverrideState>true</LUTContributionOverrideState>
+  <LUTName>Candy Commercial</LUTName>
+  <TimeOfDayLocked>false</TimeOfDayLocked>
+  <TonemappingMode>External</TonemappingMode>
+  <SceneFlowCheckerEnabled>false</SceneFlowCheckerEnabled>
+  <ToeStrengthActive>false</ToeStrengthActive>
+  <ToeStrengthValue>0</ToeStrengthValue>
+  <ToeLengthActive>false</ToeLengthActive>
+  <ToeLengthValue>0</ToeLengthValue>
+  <shoulderStrengthActive>false</shoulderStrengthActive>
+  <shoulderStrengthValue>0</shoulderStrengthValue>
+  <shoulderLengthActive>false</shoulderLengthActive>
+  <shoulderAngleActive>false</shoulderAngleActive>
+  <shoulderAngleValue>0</shoulderAngleValue>
+  <TonemappingGammaActive>false</TonemappingGammaActive>
+  <TonemappingGammaValue>0</TonemappingGammaValue>
+  <SaveAutomatically>true</SaveAutomatically>
+  <CubemapName />
+  <spaceEmissionMultiplier>1000</spaceEmissionMultiplier>
+  <HDRISkyEnabled>false</HDRISkyEnabled>
+  <CustomSunEnabled>false</CustomSunEnabled>
+  <AngularDiameter>0</AngularDiameter>
+  <SunIntensity>0</SunIntensity>
+  <SunFlareSize>0</SunFlareSize>
+  <ReloadAllPackagesOnRestart>false</ReloadAllPackagesOnRestart>
+  <LuminaVolumeEnabled>true</LuminaVolumeEnabled>
+</GlobalVariables>

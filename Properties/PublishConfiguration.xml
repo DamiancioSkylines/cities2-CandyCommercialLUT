@@ -1,33 +1,85 @@
-﻿<Publish>
-	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="" />
+﻿<!--suppress GrazieInspection -->
+<Publish>
+	<!--ID must be set to update existed mod. it is not required to publish mod for the first time-->
+	<ModId Value="91836" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="ON1_LUT_Bundle" />
+	<DisplayName Value="Candy Commercial LUT" />
 	<!--Short description of the mod-->
 	<ShortDescription Value="LUT PACK FOR LUMINA" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="LUT PACK FOR LUMINA" /-->
 	<LongDescription>
-LUT PACK FOR LUMINA
+## Candy Commercial LUT for Lumina
+
+Basically it's a look texture you load with Lumina mod, changes the look of the game.
+
+# Brief Usage:
+After downloading, LUTs should show up, but if not, you need to relaunch your game once or couple times, eventually, mod copies the LUT and preset in Lumina folder.
+1. Load your save game and open the Lumina menu and go to the first tab.
+2. Import the CandyCommercial preset by typing "CandyCommercial" first
+3. Press "IMPORT PRESET"
+4. Tick the "ENABLE LUMINA VOLUME" else nothing will apply eather preset or LUT
+5. Navigate to the "Tonemapping" tab (sun inside a square).
+6. Set the "Tonemapping Mode" to "External"
+7. Choose a "Tonemapping Texture" from the list "Candy Commercial"
+8. Ensure LUT Contribution is set to 1; else you will have white and saturation clipping. Use adjustments in the last tab instead to fine-tune later.
+9. Click "Load LUT"
+
+# Know Issues:
+- Some custom textures for the terrain are honestly designed overexposed maybe to look better for vanilla tonemapping, but they may be very bright with this LUT 
+- Brighter Overall Look: You might find the game looks generally brighter than you're used to, even more so than the vanilla game or Filmstock LUT pack. That's because this LUT handles "middle grey" (a standard brightness level) wrong. I will keep it this way for now since many people are already using and enjoying it. When I figure out how to also respect paper white value not only middle grey value like vanilla tonemapping I will update this LUT look if you want, so let me know if that's something you'd like!
+- Overall LUT does a great job of keeping pure white colors truly white, but Filmstock LUT pack is made better with smoother transitions (less "color banding"),  and better performance across different times of day, weather, and seasons for exactly middle grey value almost on point with vanilla game, cleaner skin tones, and still lets you achieve crisp whites with a little adjustment.
+
+# Extra notes
+# Tonemapping:
+- Non-filmic: Doesn't follow a film-like tone curve.
+- High-key commercial look: Creates a bright, clean aesthetic.
+- S-shaped curve: Increases contrast.
+		
+# Color:
+- Increased saturation: Makes colors more vibrant.
+- White point: Not affected.
+- Hue shifts: Warms up yellow tones while preserving skin tones for the most part.
+- Reds: Appear slightly darker.
+- Blue neon lights: Blue lights from service vehicles become little brighter and more cyan.
+- Softer appearance: Bloom kicks in to higher gear, most noticeable at clear day peak hour, making the game appear softer.
+		
+Anyway, fine tune to your liking but beware of reducing LUT contribution unless you like nuclear colours and white clipping.
+		
+## Special Thanks
+**Nyyoko**
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.png" />
-	<!--Screenshot, can be set multiple times-->
+	<Thumbnail Value="Properties/Thumbnail.jpg" />
+	<!--Screenshot can be set multiple times-->
+	<Screenshot Value="Properties/Screenshot01.jpg" />
+	<Screenshot Value="Properties/Screenshot02.jpg" />
+	<Screenshot Value="Properties/Screenshot03.jpg" />
+	<Screenshot Value="Properties/Screenshot04.jpg" />
+	<Screenshot Value="Properties/Screenshot05.jpg" />
+	<Screenshot Value="Properties/Screenshot06.jpg" />
+	<Screenshot Value="Properties/Screenshot07.jpg" />
+	<Screenshot Value="Properties/Screenshot08.jpg" />
+	<Screenshot Value="Properties/Screenshot09.jpg" />
+	<Screenshot Value="Properties/Screenshot10.jpg" />
 	<Screenshot Value="" />
-	<!--Tag, can be set multiple times-->
-	<Tag Value="" />
+	<!--Tag can be set multiple times-->
+	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/candy-commercial-lut.1708635/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.0.1" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.0.*" />
-	<!--Dependency for the mod, can be set multiple times-->
-	<Dependency Id="" />
-	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<GameVersion Value="1.3.*" />
+	<!--Dependency for the mod can be set multiple times-->
+	<Dependency Id="94394" />
+	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog Value="" />
-	<!--ChangeLog>
-	</ChangeLog-->
+- Compatibility with game update 1.3.3f1.
+- Added CandyCommercial.xml settings preset to load, to make things easier
+- Optimized jpg screenshots to save disc space
+- Added GitHub link for Skyve, as I did not even know how to use Git, when released this LUT initially
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-CandyCommercialLUT" />
+	<ExternalLink Type="paypal" Url="https://www.paypal.com/donate/?hosted_button_id=8VN8P4VJDAKKA" />
 </Publish>
