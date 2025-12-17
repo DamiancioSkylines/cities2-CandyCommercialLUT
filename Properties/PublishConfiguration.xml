@@ -68,7 +68,7 @@ Anyway, fine tune to your liking but beware of reducing LUT contribution unless 
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Fix changelog only I hope" />
+	<ChangeLog Value="Fix Skyve Warnings" />
 	<ChangeLog>
 - Compatibility with game update 1.5.3f1
 - Recompiled to clear Skyve warning
