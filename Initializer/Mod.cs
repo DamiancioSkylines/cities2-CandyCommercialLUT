@@ -8,15 +8,15 @@ namespace CandyCommercialLUT.Initializer
     public class Mod : IMod
     {
 
-        public static ILog log = LogManager.GetLogger($"{nameof(CandyCommercialLUT)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
+        public static ILog log = LogManager.GetLogger($"{nameof(CandyCommercialLUT)}").SetShowsErrorsInUI(false);
    
 
         public void OnLoad(UpdateSystem updateSystem)
         {
-            log.Info(nameof(OnLoad));
+            // log.Info(nameof(OnLoad));
 
-            if (GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset))
-                log.Info($"Current mod asset at {asset.path}");
+            // if (GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset))
+                // log.Info($"Current mod asset at {asset.path}");
 
 
             Bundle.ValidateLUTSDirectory();
@@ -26,7 +26,7 @@ namespace CandyCommercialLUT.Initializer
 
         public void OnDispose()
         {
-            log.Info(nameof(OnDispose));
+           // log.Info(nameof(OnDispose));
         }
     }
 }
