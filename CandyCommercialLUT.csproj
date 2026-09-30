@@ -7,6 +7,8 @@
 		
 		<!--The file where mod information which is required for publishing mod on PDX mods are stored-->
 		<PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
+		<AssemblyName>Candy Commercial LUT</AssemblyName>
+		<RootNamespace>Candy Commercial LUT</RootNamespace>
 	</PropertyGroup>
 	
 	<!--Imports must be after PropertyGroup block-->
@@ -63,15 +65,9 @@
 	<ItemGroup>
 		<Folder Include="LuminaPresets\" />
 	  	<Folder Include="LUTS\" />
-		<EmbeddedResource Include="LUTS\Candy Commercial.cube">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="LuminaPresets\CandyCommercial.xml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="CandyCommercialLUT.lumina">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</EmbeddedResource>
+		<!-- Embed LUTS and Preset and Lumina -->
+		<EmbeddedResource Include="LUTS\**\*.cube" />
+		<EmbeddedResource Include="LuminaPresets\**\*.xml" />
 	</ItemGroup>
 
 </Project>

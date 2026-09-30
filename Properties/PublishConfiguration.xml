@@ -12,17 +12,15 @@
 ## Candy Commercial LUT for Lumina
 Basically it's a look texture you load with Lumina mod, changes the look of the game.
 
-# Brief Usage:
-After downloading, LUTs should show up, but if not, you need to relaunch your game once or couple times, eventually, mod copies the LUT and preset in Lumina folder.
-1. Load your save game and open the Lumina menu and go to the first tab.
-2. Import the CandyCommercial preset by typing "CandyCommercial" first
-3. Press "IMPORT PRESET"
-4. Tick the "ENABLE LUMINA VOLUME" else nothing will apply eather preset or LUT
-5. Navigate to the "Tonemapping" tab (sun inside a square).
-6. Set the "Tonemapping Mode" to "External"
-7. Choose a "Tonemapping Texture" from the list "Candy Commercial"
-8. Ensure LUT Contribution is set to 1; else you will have white and saturation clipping. Use adjustments in the last tab instead to fine-tune later.
-9. Click "Load LUT"
+### Quick Start &amp; Usage:
+1. Load your save game and open the Lumina menu and go to the *first tab*.
+2. Tick **ENABLE LUMINA VOLUME** else nothing will apply either preset or LUT.
+3. Scroll down and click **Import preset > Import File > type **Candy Commercial** > Click Import > Back > Close**
+4. Navigate to the "Tonemapping" tab (sun inside a square)
+5. Set the **Tonemapping Mode** to **External**
+6. Choose **LUT Texture** from the list e.g. **Candy Commercial**
+7. Ensure LUT Contribution is set to **1** else it will be clipping. Use adjustments instead to fine-tune later.
+9. Click **Load LUT**		
 
 # Know Issues:
 - Some custom textures for the terrain are honestly designed overexposed maybe to look better for vanilla tonemapping, but they may be very bright with this LUT 
@@ -39,16 +37,16 @@ After downloading, LUTs should show up, but if not, you need to relaunch your ga
 - Reds: Appear slightly darker.
 - Blue neon lights: Blue lights from service vehicles become little brighter and more cyan.
 - Softer appearance: Bloom kicks in to higher gear, most noticeable at clear day peak hour, making the game appear softer.
-		
-Anyway, fine tune to your liking but beware of reducing LUT contribution unless you like nuclear colours and white clipping.
-		
+
+Anyway, fine tune to your liking.
+
 ## Special Thanks
 **Nyyoko**
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.jpg" />
 	<!--Screenshot can be set multiple times-->
-	<Screenshot Value="Properties/Screenshot01.jpg" />
+	<!--Screenshot Value="Properties/Screenshot01.jpg"-->
 	<Screenshot Value="Properties/Screenshot02.jpg" />
 	<Screenshot Value="Properties/Screenshot03.jpg" />
 	<Screenshot Value="Properties/Screenshot04.jpg" />
@@ -62,17 +60,16 @@ Anyway, fine tune to your liking but beware of reducing LUT contribution unless 
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/candy-commercial-lut.1708635/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.3" />
+	<ModVersion Value="1.0.4" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.5.*" />
+	<GameVersion Value="1.6.*" />
 	<!--Dependency for the mod can be set multiple times-->
 	<Dependency Id="94394" />
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Fix Skyve Warnings" />
+	<ChangeLog Value="Optimization" />
 	<ChangeLog>
-- Compatibility with game update 1.5.3f1
-- Recompiled to clear Skyve warning
-- Removed redundant logs unless errors
+- Optimization
+- Changed preset name to include space
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-CandyCommercialLUT" />

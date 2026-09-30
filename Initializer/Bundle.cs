@@ -133,7 +133,7 @@ namespace CandyCommercialLUT.Initializer
             }
             catch (Exception ex)
             {
-                Mod.log.Error($"Failed to validate or create the LUTs directory: {ex.Message}");
+                Mod.log.Error($"Failed to validate or create the Presets directory: {ex.Message}");
             }
         }
 
